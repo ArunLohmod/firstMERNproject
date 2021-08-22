@@ -1,0 +1,240 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar styling */
+
+.navbar{
+    background-color: #fff;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(190, 190, 190, 0.459);
+}
+
+.navbar_style .navbar-brand{
+    color: rgb(18, 80, 212);
+    font-weight: 800;
+}
+
+.nav-item .nav-link{
+    font-size: 1rem;
+}
+
+.nav-item .nav-link:hover{
+    color: black;
+    border-bottom: 1px solid rgb(18, 80, 212);
+}
+
+.navbar-toggler-icon{
+    background-color: rgb(18, 80, 212);
+}
+
+
+
+/* ------------------------------------------------------ */
+/* sign up page styling */
+
+.signup{
+    width: 75%;
+    margin: 5% auto;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(146, 146, 146, 0.315);
+    padding: 20px 10px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup h2{
+    margin-bottom: 2rem;
+    color: rgb(18, 80, 212);
+}
+
+.signup_img, .login_img{
+    text-align: center;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.signup_form, .login_form{
+    width: 100%;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.form-group input::placeholder{
+    color: rgba(0, 0, 0, 0.363);
+}
+
+.form-group label i{
+    margin-right: 1rem;
+}
+
+.signup_form .btn{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+
+/* login styling */
+
+.login{
+    width: 70%;
+    margin: 5% auto;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(146, 146, 146, 0.315);
+    padding: 20px 10px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login h2{
+    margin-bottom: 2rem;
+    color: rgb(18, 80, 212);
+}
+
+
+/* contact styling */
+
+.contact_container{
+    width: 90%;
+    margin: 5% auto;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(146, 146, 146, 0.315);
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.contact_container h2{
+    text-align: center;
+    color: rgb(18, 80, 212);
+    margin-bottom: 2rem;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .upper{
+    width: 90%;
+    border: 1px solid rgba(18, 79, 212, 0.836);
+    color: rgb(18, 80, 212);
+    border-radius: .5rem;
+    padding: 20px;
+    margin: 2rem auto;
+    text-align: center;
+
+    margin-bottom: 3rem;
+}
+
+.contact .form-group{
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact  textarea{
+   border: none;
+   outline: none;
+   border-bottom: 1px solid black;
+   width: 80%;
+}
+
+.contact .btn{
+    margin-top: 2rem;
+}
+
+/* styling the home page */
+.homeContainer{
+    background: linear-gradient(90deg, rgba(66, 103, 226, 0.664) 50%, white 50%);
+    width: 50%;
+    position: absolute;
+    top: 40%;
+     left: 25%;
+    padding: 4rem ;
+    text-align: center;
+    box-shadow: 0px 0px 20px 0px rgba(17, 17, 17, 0.315);
+    border-radius: .2rem;
+}
+
+@media screen and (max-width: 500px){
+    .homeContainer{
+        width: 80%;
+        left : 10%
+    }
+}
+
+body{
+    background: linear-gradient(270deg, rgba(66, 103, 226, 0.664) 50%, white 50%);
+    width: 100%;
+}
+
+
+/* about styling */
+
+.about{
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(24, 24, 24, 0.445);
+    border-radius: .5rem;
+    margin: 20% auto;
+    padding: 2rem 3rem;
+}
+
+.about h2{
+    color: rgb(18, 80, 212);
+}
+
+.nav-tabs{
+    margin-top: 3rem;
+}
+
+.aboutStyling{
+    margin-top: 3rem;
+}
+
+.aboutStyling ul li{
+    list-style: none;
+}
+
+.que ul li{
+    color:rgb(18, 80, 212)
+}
